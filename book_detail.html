@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>{{ book[1] }}</h1>
+<p><b>Автор:</b> {{ book[2] }}</p>
+<p><b>Рік:</b> {{ book[4] }}</p>
+<p><b>Опис:</b> {{ book[3] }}</p>
+
+{% if book[5] %}
+<img src="{{ book[5] }}" width="300">
+{% endif %}
+
+<br><br>
+<a href="{{ url_for('library') }}">Назад</a>
+
+{% endblock %}

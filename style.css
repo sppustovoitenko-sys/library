@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: #333;
+    padding: 10px;
+}
+
+header a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
